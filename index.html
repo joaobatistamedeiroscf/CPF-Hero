@@ -31,6 +31,18 @@
     <footer >
         
     </footer>
-    <script ></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const input = document.getElementById("cpf");
+            if (input) {
+            IMask(input, {
+                mask: "000.000.000-00"
+            });
+            }
+        });
+</script>
+    <script></script>
+
 </body>
 </html>
