@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // Código moderno
+    "module": "ES6",                   // Para usar import/export no navegador
+    "outDir": "./dist",                // Onde os arquivos .js serão gerados
+    "rootDir": "./src",                // Onde estão os arquivos .ts
+    "strict": true,                    // Regras de verificação rígidas
+    "esModuleInterop": true            // Permite importações compatíveis
+  },
+  "include": ["src"]
+}

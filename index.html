@@ -20,11 +20,12 @@
         
         <form class="formulario" action="">
             <label for="cpf">👽 Digite seu CPF 👽</label>
-            <input class="botao" type="text" id="cpf"  name="cpf" placeholder="000.000.000-00" required>
+            <input class="botao" type="text" id="cpf"  name="cpf" placeholder="000.000.000-00">
             <div class="buttons ">
                 <button id="botao__verificar" class="botao verificar" type="submit">Verificar</button>
                 <button class="botao gerarCpf " type="submit">Gerar Cpf</button>
             </div>
+            <div class="mensagemErro" id="mensagem"></div>
           
         </form>
     </main>
@@ -42,6 +43,7 @@
             }
         });
 </script>
+    <script type="module" src="dist/index.js"></script>
 
 </body>
 </html>
