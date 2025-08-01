@@ -1,5 +1,3 @@
-
-
 export function validaCpf(cpf:string):boolean {
     cpf = cpf.replace(/[^\d]+/g, '');
 

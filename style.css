@@ -76,9 +76,11 @@ h1{
     .container{
         padding: 5px;
     }
+    
     h1{
         font-size: 20px;
     }
+    
 }
 @media(max-width:460px){
     .container{
