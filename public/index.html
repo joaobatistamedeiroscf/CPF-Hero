@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/public/assets/cpfverde.png">
     <title>CPF Hero</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
+
 </head>
 <body >
     <header> 
@@ -13,7 +15,7 @@
     <main class="container">
        
         <div class="texto">
-            <img src="cpf.png" width="60" alt="logo CPF">
+            <img class = "imgLogo" src="/public/assets/cpfverde.png" width="60" alt="logo CPF">
             <h1>CPF Hero - Gerador e Verificador de Cpf 🚀</h1>
             <p>Este é um Gerador e Verificador de Cpf.</p>
             <p>Nele você consegui gerar ou verificar se o cpf é valido</p>
@@ -21,8 +23,14 @@
         
         <form class="formulario" action="">
             <label for="cpf">👽 Digite seu CPF 👽</label>
-            <input class="botao" type="text" id="cpf"  name="cpf" placeholder="000.000.000-00">
-            <div class="buttons ">
+               
+                
+                <div class="copy">
+                     <input class="botao" type="text" id="cpf"  name="cpf" placeholder="000.000.000-00">
+                     <button type="button" id="copy-cpf" class="copy-btn">Copy</button>
+                </div>
+                
+                <div class="buttons ">
                 <button id="botao__verificar" class="botao verificar" type="submit">Verificar</button>
                 <button id="gerar__cpf" class="botao gerarCpf" type="submit">Gerar Cpf</button>
             </div>
@@ -44,7 +52,7 @@
             }
         });
 </script>
-    <script type="module" src="dist/index.js"></script>
+    <script type="module" src="/dist/index.js"></script>
 
 </body>
 </html>
