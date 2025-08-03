@@ -74,7 +74,8 @@ tsc
 ```
 
 3. **Abra o arquivo HTML:**
+```
+public/index.html
+```
 
-**public/index.html**
-
-**Você pode simplesmente abrir o HTML no navegador, sem servidor local.**
+Você pode simplesmente abrir o HTML no navegador, sem servidor local.**
