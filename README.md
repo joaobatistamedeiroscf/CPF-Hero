@@ -1,7 +1,7 @@
 
 
 
-# <img src="/public/assets/cpfverde.png" alt="Logo CPF" width="30" style="vertical-align: middle;"/> CPF Hero - Gerador e Validador de CPF 🚀
+# <img src="cpfverde.png" alt="Logo CPF" width="30" style="vertical-align: middle;"/> CPF Hero - Gerador e Validador de CPF 🚀
 
 
 Um site simples e eficiente para **gerar** e **validar** números de CPF (Cadastro de Pessoa Física) . Desenvolvido com HTML, CSS e TypeScript, com objetivo de  práticar e releembrar conhecimentos adquiridos.
