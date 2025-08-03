@@ -21,29 +21,23 @@ Um site simples e eficiente para **gerar** e **validar** números de CPF (Cadast
 
 ## 🗂 Estrutura de Pastas
 ```
-CPF-Hero/
-├── dist/ # Arquivos compilados (JavaScript)
-│ ├── main.js
+CPF-HERO/
+├── dist/
 │ └── utils/
 │ ├── geraCpf.js
-│ └── validaCpf.js
-│
-├── public/ # Arquivos públicos e acessíveis diretamente
-│ ├── index.html
-│ └── assets/
-│ ├── cpf.png
-│ └── cpfverde.png
-│
-├── src/ # Código-fonte em TypeScript e CSS
-│ ├── styles/
-│ │ └── style.css
-│ ├── utils/
-│ │ ├── geraCpf.ts
-│ │ └── validaCpf.ts
-│ └── main.ts
-│
-├── tsconfig.json # Configuração do TypeScript
-└── README.md # Este arquivo
+│ ├── validaCpf.js
+│ └── index.js
+├── src/
+│ └── utils/
+│ ├── geraCpf.ts
+│ ├── validaCpf.ts
+│ └── index.ts
+├── styles/
+│ └── style.css
+├── cpfverde.png
+├── index.html
+├── README.md
+└── tsconfig.json
 ```
 
 ---
